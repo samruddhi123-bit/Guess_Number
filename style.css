@@ -1,0 +1,74 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #b00084, #afc93d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+
+.game-container {
+  padding: 30px 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+
+h1{
+  margin-bottom: 20px;
+  color: #110b0b;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #be3e3e;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #b00061;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  color: rgb(243, 183, 183);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#reset{
+    padding: 10px 25px;
+    background-color: #c84242;
+}
+
+#reset:hover{
+    background-color: #8453c4;
+}
+
+button:hover {
+  background-color: #6b9201;
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #444;
+  border-radius: 5px;
+}
+
+#attempts{
+  margin-top: 10px;
+  font-weight: bold;
+  color: #f5c2c2;
+
+}
